@@ -1,0 +1,32 @@
+h1 {
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding: 60px 10px 60px 60px;
+  font-family: 'Ubuntu', sans-serif;
+}
+h2
+ {
+   padding: 20px;
+   text-align: justify;
+   font-family: 'Ubuntu', sans-serif;
+ }
+
+ p {
+   padding: 20px;
+   text-align: justify;
+   font-size: 17px;
+   font-family: 'Ubuntu', sans-serif;
+ }
+
+ li {
+   padding-left: 20px;
+   text-align: justify;
+   font-size: 17px;
+   font-family: 'Ubuntu', sans-serif;
+ }
+
+ body {
+   border-color: black;
+   border-top: 20px;
+ }

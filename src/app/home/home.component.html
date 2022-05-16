@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>Mão Solidária</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="home.component.css">
+	<link rel="shortcut icon" type="imagex/png" href="imagens/icone-pagina.ico">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+	<navbar></navbar>
+
+
+  <!--Configuração da imagem no topo da pagina -->
+	<section class="img1">
+		<header>
+      <img src="assets/imagens/mao-solidaria.jpg " class="img-fluid" alt="Imagem responsiva" >
+      <div id="content">
+        <h1 class="text-left" style="font-size: 35px; text-align: justify; padding-left: 15px;">Doe para a rede “Mão solidária”</h1> <br>
+        <p class="text-left" style="font-size: 20px; text-align: justify; padding-left: 15px;" >Uma pequena doação pode salvar vidas!!</p> <br>
+				<p class="text-left" style="font-size: 17px; text-align: justify; padding-left: 15px;">Uma iniciativa para levar cestas básicas às famílias que estão mais vulneráveis frente aos impactos da pandemia de covid-19.
+					<br>Aqui você pode doar qualquer valor, incluindo também roupas, utensilios domesticos, calçados etc.
+					<p class="text-left" style="font-size: 17px; text-align: justify; padding: 15px;"> A vida se transformou por conta da pandemia do novo coronavírus: os hábitos mudaram, um novo estilo precisou ser adotado, e muitas dificuldades se sobressaíram. E em meio a tudo isso, a solidariedade foi algo que teve um grande destaque nesses novos tempos. A preocupação com o outro ganhou os holofotes: ajudar passou a ser prioridade na vida de muitos brasileiros. Seja com um gesto de carinho, com a doação de algum alimento, de algum produto de limpeza, de alguma roupa ou até mesmo uma máscara de proteção.</p> <br>
+					<p> <a href="https://g1.globo.com/olha-que-legal/noticia/2020/06/27/geladeira-na-rua-varal-de-mascaras-doacao-de-alimentos-veja-as-acoes-para-ajudar-o-proximo-em-tempos-de-pandemia.ghtml" target="_blank" style="font-size: 13px; text-align: justify; color:black; padding-left: 15px;" class="link-secondary"> Máteria completa no G1 </a></p>
+					<br>
+					<a [routerLink]="['/voluntario']" style="padding-left: 15px;"><button style="font-size: 10px; padding-left: 15px;" id="btn2" class="btn btn-warning" >SEJA UM VOLUNTÁRIO</button></a>
+			    <br>
+          <br>
+        </div>
+		</header>
+	</section>
+	<!--Fim do da cofiguração da imagem do topo da pagina -->
+
+
+
+	<!--Configuração da Galeria de imagens -->
+  <!--Imagens retiradas do site https://www.pexels.com/pt-br/ as mesmas são gratuitas e podem ser utilizadas -->
+
+<!--
+
+foto02 -> Foto de Julia M Cameron no Pexels
+foto5 -> Foto de ANTONI SHKRABA no Pexels
+foto6 -> Foto de RODNAE Productions no Pexels
+foto7 -> Foto de Julia M Cameron no Pexels
+foto8 -> Foto de ANTONI SHKRABA no Pexels
+foto9 -> Foto de RODNAE Productions no Pexels
+foto10 -> Foto de RODNAE Productions no Pexels
+foto11 -> Foto de RODNAE Productions no Pexels
+foto12 -> Foto de RODNAE Productions no Pexels
+mao-solidaria -> Foto de Lagos Food Bank Initiative no Pexels
+
+
+-->
+
+  <section class="img2" style="background-color: black;">
+		<h1 style="background-color: black; color: white; text-align: center; font-family: 'Ubuntu', sans-serif;  padding: 50px;">
+			<a name="galeria"></a>Doar é um ato solidário.
+			<br> <br>
+			<p style="background-color: black; color: white; text-align: center; font-family: 'Ubuntu', sans-serif;font-size: 17px;">
+				É enxergar a necessidade do próximo e ter a conciência que essa ação pode salvar a vida de muitas
+				pessoas</p>
+			<br>
+			<img src="assets/imagens/foto5.jpg" class="img-fluid" alt="Imagem responsiva"
+				style=" margin-left: -1%; width: 80%;">
+			<br>
+			<br>
+			<img src="assets/imagens/foto6.jpg" class="img-fluid" alt="Imagem responsiva"
+				style=" margin-right: auto; width: 25%; vertical-align: top;">
+			<img src="assets/imagens/foto7.jpg" class="img-fluid" alt="Imagem responsiva"
+				style=" margin-right: auto; width: 25%; vertical-align: top;">
+			<img src="assets/imagens/foto9.jpg" class="img-fluid" alt="Imagem responsiva"
+				style=" margin-right: auto; width: 25%; vertical-align: top;">
+			<img src="assets/imagens/foto10.jpg" class="img-fluid" alt="Imagem responsiva"
+				style=" margin-right: auto; width: 25%; vertical-align: top;">
+			<img src="assets/imagens/foto11.jpg" class="img-fluid" alt="Imagem responsiva"
+				style=" margin-right: auto; width: 25%; vertical-align: top;">
+			<img src="assets/imagens/foto12.jpg" class="img-fluid" alt="Imagem responsiva"
+				style=" margin-right: auto; width: 25%; vertical-align: top">
+
+			<br>
+			<br>
+
+		</h1>
+	</section>
+	<!--Fim da configuração das imagens da galeria -->
+
+
+
+
+
+
+
+
+
+
+
+	<!--Seção comentarios depoimentos -->
+	<!--As imagens das pessoas foram tiradas do https://thispersondoesnotexist.com/ são fakes e pode utilizar-->
+	<section style="background-color: black; padding: -700px;">
+		<h1
+			style="font-weight: bolder; color: white; text-align: center; font-family: 'Ubuntu', sans-serif; font-size: 35px; ">
+			Depoimentos<br>
+			<br><br>
+		</h1>
+		<div class="container" class="container-fluid">
+			<div class="row">
+				<div class="col-sm" style="font-size: 10px;">
+					<div class="card" style="width: 15rem; border-radius: 20px;">
+						<img class="card-img-top" src="assets/imagens/users/avatar2.jpg" alt="Imagem de capa do card"
+							style="border-radius: 17px ;">
+						<div class="card-body">
+							<h5 class="card-title">João</h5>
+							<br>
+							<p class="card-text" style="font-style: italic;">Lorem ipsum dolor sit, amet consectetur
+								adipisicing elit. Tenetur officiis dicta illo eius blanditiis! Reiciendis perspiciatis
+								ea quam officia earum vel laudantium itaque placeat ut voluptate! Sint modi officia
+								magni!</p>
+						</div>
+					</div>
+					<br>
+					<br>
+				</div>
+				<div class="col-sm" style="font-size: 10px;">
+					<div class="card" style="width: 15rem; border-radius: 20px;">
+						<img class="card-img-top" src="assets/imagens/users/avatar1.jpg" alt="Imagem de capa do card"
+							style="border-radius: 17px;">
+						<div class="card-body">
+							<h5 class="card-title">Maria</h5>
+							<br>
+							<p class="card-text" style="font-style: italic;">Lorem ipsum dolor sit, amet consectetur
+								adipisicing elit. Tenetur officiis dicta illo eius blanditiis! Reiciendis perspiciatis
+								ea quam officia earum vel laudantium itaque placeat ut voluptate! Sint modi officia
+								magni!</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm" style="font-size: 10px;">
+					<div class="card" style="width: 15rem; border-radius: 20px;">
+						<img class="card-img-top" src="assets/imagens/users/avatar3.jpg" alt="Imagem de capa do card"
+							style="border-radius: 17px;">
+						<div class="card-body">
+							<h5 class="card-title">Flavio</h5>
+							<br>
+							<p class="card-text" style="font-style: italic;">Lorem ipsum dolor, sit amet consectetur
+								adipisicing elit. Eligendi quasi ut sed atque magnam possimus, optio earum. Aliquid est
+								inventore ea debitis. Soluta impedit tempora repudiandae facilis, cumque magnam fugiat!
+								Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur officiis dicta illo
+								eius blanditiis! Reiciendis perspiciatis ea quam officia earum vel laudantium itaque
+								placeat ut voluptate! Sint modi officia magni!</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm" style="font-size: 10px;">
+					<div class="card" style="width: 15rem; border-radius: 20px;">
+						<img class="card-img-top" src="assets/imagens/users/avatar4.jpg" alt="Imagem de capa do card"
+							style="border-radius: 17px;">
+						<div class="card-body">
+							<h5 class="card-title">Marcelo</h5>
+							<br>
+							<p class="card-text" style="font-style: italic;">Lorem ipsum dolor sit, amet consectetur
+								adipisicing elit. Tenetur officiis dicta illo eius blanditiis! Reiciendis perspiciatis
+								ea quam officia earum vel laudantium itaque placeat ut voluptate! Sint modi officia
+								magni!</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm" style="font-size: 10px;">
+					<div class="card" style="width: 15rem; border-radius: 20px;">
+						<img class="card-img-top" src="assets/imagens/users/avatar5.jpg" alt="Imagem de capa do card"
+							style="border-radius: 17px;">
+						<div class="card-body">
+							<h5 class="card-title">Claudio</h5>
+							<br>
+							<p class="card-text" style="font-style: italic;">Lorem ipsum dolor sit, amet consectetur
+								adipisicing elit. Tenetur officiis dicta illo eius blanditiis! Reiciendis perspiciatis
+								ea quam officia earum vel laudantium itaque placeat ut voluptate! Sint modi officia
+								magni!</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<br>
+		<br>
+		<br>
+	</section>
+
+	<!--Fim da configuração -->
+
+
+
+
+
+	<!-- Seção de noticias -->
+  <link href="/docs/4.2/dist/css/bootstrap.min.css" rel="stylesheet"
+	integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<style>
+	.bd-placeholder-img {
+		font-size: 1.125rem;
+		text-anchor: middle;
+	}
+	@media (min-width: 768px) {
+		.bd-placeholder-img-lg {
+			font-size: 3.5rem;
+		}
+	}
+</style>
+	<div class="container marketing">
+
+		<!-- START THE FEATURETTES -->
+		<br>
+		<hr class="featurette-divider">
+		<br>
+
+		<h1 style="text-align: center; font-family: 'Ubuntu', sans-serif; font-size: 30px;"><a name="noticias"></a>Últimas notícias</h1>
+		<br>
+		<br>
+		<div class="row featurette">
+			<div class="col-md-7">
+				<h2 class="featurette-heading " style="font-size: 20px; text-align: justify;">Fome no Brasil: Como ajudar
+					pessoas a comer e sobreviver na pandemia.</h2>
+				<p class="lead" style="font-size: 15px; text-align: justify;">Para ajudar nesse momento de crise, Ecoa
+					listou entidades, iniciativas e projetos, por todo Brasil, que ajudam comunidades, favelas e
+					minorias étnicas. Se você puder contribuir, é só escolher para qual ou quais grupos gostaria de
+					doar.</p>
+				<p> <a href="https://www.uol.com.br/ecoa/ultimas-noticias/2021/03/23/fome-no-brasil-como-ajudar-pessoas-a-comer-e-sobreviver-na-pandemia.htm?aff_source=56d95533a8284936a374e3a6da3d7996&cmpid=copiaecola" target="_blank" style="font-size: 12px; text-align: justify; color: black;" class="link-secondary"> Veja mais</a></p>
+			</div>
+			<div class="col-md-5">
+				<img class="img-fluid"
+					src="https://conteudo.imguol.com.br/c/entretenimento/8a/2021/03/22/doacao-de-refeicao-para-pessoas-em-situacao-de-vulnerabilidade-1616448339273_v2_900x506.jpg.webp"
+					width="505" height="500">
+			</div>
+		</div>
+		<hr class="featurette-divider">
+		<div class="row featurette">
+			<div class="col-md-7 order-md-2">
+				<h2 class="featurette-heading" style="font-size: 20px; text-align: justify;">Livelo triplica doações via
+					troca de pontos a projetos sociais.</h2>
+				<p class="lead" style="font-size: 15px; text-align: justify;">A iniciativa de doação de pontos da
+					Livelo tem colhido bons resultados. Apenas no primeiro semestre, o programa de recompensas atingiu
+					36,9 milhões de pontos destinados a instituições sociais</p>
+
+				<p> <a href="https://veja.abril.com.br/coluna/radar/livelo-tem-arrecadacao-milionaria-em-doacoes-por-troca-de-pontos/" target="_blank" style="font-size: 12px; text-align: justify; color: black;" class="link-secondary"> Veja mais</a></p>
+			</div>
+			<div class="col-md-5 order-md-1">
+				<img class="img-fluid"
+					src="https://veja.abril.com.br/wp-content/uploads/2016/12/compras-internet.jpg?quality=70&strip=info&resize=680,453"
+					width="505" height="500">
+			</div>
+		</div>
+		<hr class="featurette-divider">
+		<div class="row featurette">
+			<div class="col-md-7">
+				<h2 class="featurette-heading " style="font-size: 20px; text-align: justify;">Doações despencam em 2021 e
+					fome cresce nas comunidades.</h2>
+				<p class="lead" style="font-size: 15px; text-align: justify;">Piora da pandemia zera estoques de comida
+					das associações, que veem queda de até 95% na oferta em comparação com 2020.</p>
+				<p> <a href="https://noticias.r7.com/economia/doacoes-despencam-em-2021-e-fome-cresce-nas-comunidades-02042021" target="_blank" style="font-size: 12px; text-align: justify; color: black;" class="link-secondary"> Veja mais</a></p>
+			</div>
+			<div class="col-md-5">
+				<img class="img-fluid"
+					src="https://img.r7.com/images/doacoes-de-comida-associacao-do-itajuibe-24032021015343739?dimensions=677x369"
+					width="505" height="500">
+			</div>
+		</div>
+
+		<hr class="featurette-divider">
+	    </div>
+
+
+		<!-- Fim da seção de noticias -->
+
+    <rodape></rodape>
+ <!--Botão Voltar ao Topo - Com Efeito de Pulo-->
+</body>
+</html>
+

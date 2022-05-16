@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Título da página</title>
+    <meta charset="utf-8">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>Mão Solidária</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" type="imagex/png" href="imagens/icone-pagina.ico">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  </head>
+  <body>
+    <navbar></navbar>
+
+    <h1>SEJA UM VOLUNTÁRIO</h1>
+      <div class="container">
+        <br>
+        <br>
+
+        <form (ngSubmit)="onSubmit()">
+          <hr class="featurette-divider">
+          <ul class="flex-outer">
+            <li>
+              <label for="name">Nome Completo</label>
+              <input type="text" [(ngModel)]="voluntario.name" name="nome" name="nome" placeholder="Digite seu nome completo">
+            </li>
+            <li>
+              <label for="endereco">Endereço</label>
+              <input type="text" [(ngModel)]="voluntario.endereco" name="nome" placeholder="Digie o seu endereço">
+            </li>
+            <li>
+              <label for="email">Email</label>
+              <input type="email" [(ngModel)]="voluntario.email"  name="nome" placeholder="Digite o seu e-mail">
+            </li>
+            <li>
+              <label for="phone">Número</label>
+              <input type="text" [(ngModel)]="voluntario.numeroCasa"  name="nome" placeholder="Numero da residência">
+            </li>
+            <li>
+              <label for="complemento">Complemento</label>
+              <input type="complemento" [(ngModel)]="voluntario.complemento"  name="nome" placeholder="casa, condominio, apartamento etc...">
+            </li>
+            <li>
+              <label for="phone">Contato</label>
+              <input type="tel" [(ngModel)]="voluntario.phone"  name="nome" placeholder="Telefone de contato">
+            </li>
+            <li>
+              <label for="phone">CPF</label>
+              <input type="tel" [(ngModel)]="voluntario.cpf"  name="nome" placeholder="000.000.000-00">
+            </li>
+
+
+
+            <br>
+            <br>
+            <label for="exampleFormControlSelect1">MAIS INFORMAÇÕES</label>
+            <br>
+            <p>Porque deseja ser um voluntário? Já trabalhou como?</p>
+            <textarea class="form-control" [(ngModel)]="voluntario.motivo" name="nome" rows="3"></textarea>
+            <br>
+            <p>Como conheceu o nosso projeto?</p>
+            <textarea class="form-control" [(ngModel)]="voluntario.comoConheceu" name="nome" rows="3"></textarea>
+            <br>
+            <br>
+            <br>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">OBSERVAÇÕES</label>
+              <textarea class="form-control" [(ngModel)]="voluntario.observacao"  name="nome" rows="3"></textarea>
+            </div>
+            <li>
+              <button class="enviar" type="submit" style="background-color: black;">enviar</button>
+
+            </li>
+          </ul>
+        </form>
+        <br>
+        <hr class="featurette-divider">
+      </div>
+      <rodape></rodape>
+  </body>
+</html>
+
