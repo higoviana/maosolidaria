@@ -9,7 +9,7 @@ import { Edit2Component } from './voluntarios/edit2/edit2.component';
 
 
 const  APP_ROUTES: Routes = [
-  {path: 'home', component: HomeComponent},
+  {path: '', component: HomeComponent},
   {path: 'termo', component: TermoUsoComponent},
   {path: 'politica', component: PoliticaPrivacidadeComponent},
   {path: 'pontos', component: PontosColetaComponent},

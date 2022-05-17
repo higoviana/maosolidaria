@@ -49,7 +49,7 @@ nav ul li a {
 
 }*/
 
-#btn00 a.active, a:hover{
+#btn02 a.active, a:hover{
 	background: rgb(231, 230, 125);
 	transition: .3s;
 }
