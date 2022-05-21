@@ -137,6 +137,13 @@ body{
    min-height: 200px;
 }
 
+
+.content > h1 {
+  font-size: 35px;
+  text-align: justify;
+  padding-left: 15px;
+}
+
 #myFooter{
    flex: 0 0 auto;
    -webkit-flex: 0 0 auto;

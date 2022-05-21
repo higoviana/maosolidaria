@@ -7,8 +7,8 @@ h1 {
 }
 body {
 font: normal 15px/1.5 "Fira Sans", "Helvetica Neue", sans-serif;
-background: rgb(48, 43, 43);
-color: white;
+background: rgb(48, 43, 43);;
+color: rgb(141, 134, 134);
 padding: 50px 0;
 }
 
@@ -87,7 +87,7 @@ margin-left: auto;
 padding: 8px 16px;
 border: none;
 background: rgb(224, 219, 219);
-color: balck;
+color: white;
 text-transform: uppercase;
 letter-spacing: .09em;
 border-radius: 2px;
