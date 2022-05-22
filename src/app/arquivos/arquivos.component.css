@@ -1,0 +1,58 @@
+
+h1 {
+  text-align: center;
+  padding: 20px;
+}
+
+h3 {
+  text-align: center;
+}
+
+#div-col1 {
+  background-color: rgb(183, 243, 243);
+  border-radius: 10px;
+  padding: 10px;
+
+}
+
+#div-col1 > p {
+  text-align: justify;
+}
+
+#div-col2 {
+  background-color: rgb(194, 183, 243);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#div-col2 > p {
+  text-align: justify;
+}
+
+#div-col3 {
+  background-color: rgb(243, 183, 188);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#div-col3 > p {
+  text-align: justify;
+}
+
+section {
+  font-family: 'Ubuntu', sans-serif;
+  background-color: rgb(212, 218, 169);
+  padding: 100px;
+}
+
+button {
+ border-radius: 5px;
+ border-color: rgb(212, 218, 169);
+ background-color: rgb(144, 189, 99);
+ padding: 5px;
+ }
+
+ button:hover {
+ background-color: chartreuse;
+ transition: .3s;
+ }

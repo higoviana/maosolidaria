@@ -25,6 +25,7 @@ import { ListComponent } from './contatos/list/list.component';
 import { AppRoutingModule } from './app-routing.module';
 import { Edit2Component } from './voluntarios/edit2/edit2.component';
 import { List2Component } from './voluntarios/list2/list2.component';
+import { ArquivosComponent } from './arquivos/arquivos.component';
 
 
 
@@ -42,7 +43,8 @@ import { List2Component } from './voluntarios/list2/list2.component';
     ListComponent,
     EditComponent,
     Edit2Component,
-    List2Component
+    List2Component,
+    ArquivosComponent,
 
 
 
