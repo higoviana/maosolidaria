@@ -6,6 +6,33 @@ h1 {
   font-family: 'Ubuntu', sans-serif;
 }
 
+
+#p1 {
+  color: black;
+  font-family: 'Ubuntu', sans-serif;
+  padding-left: 150px;
+  padding-right: 150px;
+  text-align: justify;
+  font-size: 25px;
+}
+
+#p2 {
+  color: black;
+  font-family: 'Ubuntu', sans-serif;
+  padding-left: 150px;
+  padding-right: 150px;
+  text-align: center;
+  font-size: 25px;
+}
+
+h2 {
+  text-align: center;
+  color: black;
+  font-family: 'Ubuntu', sans-serif;
+  font-family: 10px;
+}
+
+
 div {
   font-family: 'Ubuntu', sans-serif;
   font-size: 18px;

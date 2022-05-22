@@ -25,6 +25,7 @@ h3 {
   padding: 10px;
 }
 
+
 #div-col2 > p {
   text-align: justify;
 }
@@ -44,15 +45,22 @@ section {
   background-color: rgb(212, 218, 169);
   padding: 100px;
 }
+#btn {
+  text-align: center;
+}
 
-button {
+#btn-1 {
  border-radius: 5px;
  border-color: rgb(212, 218, 169);
  background-color: rgb(144, 189, 99);
  padding: 5px;
+ text-align: center;
+ text-decoration: none;
+ padding: 10px;
+ color: black;
  }
 
- button:hover {
+ #btn-1:hover {
  background-color: chartreuse;
  transition: .3s;
  }

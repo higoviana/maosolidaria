@@ -20,7 +20,7 @@
         <br>
         <br>
 
-        <form (ngSubmit)="onSubmit()">
+        <form #f="ngForm" (ngSubmit)="onSubmit()">
           <hr class="featurette-divider">
           <div class="flex-outer">
             <ul>
@@ -107,7 +107,7 @@
               <textarea class="form-control" [(ngModel)]="voluntario.observacao"  name="nome" rows="3" maxlength="500"></textarea>
             </div>
             <div>
-              <button class="enviar" type="submit">enviar</button>
+              <button class="enviar" type="submit" [disabled]="!f.valid">enviar</button>
 
             </div>
           </div>
