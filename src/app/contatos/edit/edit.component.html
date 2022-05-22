@@ -10,7 +10,7 @@
 	<link rel="shortcut icon" type="imagex/png" href="imagens/icone-pagina.ico">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
 </head>
@@ -20,56 +20,100 @@
       <div class="container">
         <br>
         <br>
-        <form (ngSubmit)="onSubmit()">
+        <form #f="ngForm" (ngSubmit)="onSubmit()">
           <hr class="featurette-divider">
           <ul class="flex-outer">
 
 
-            <li>
+            <div class="form-group"
+            [class.has-error]="!nome.valid && nome.touched">
               <label for="name">Nome Completo</label>
-              <input type="text" class="form-control" [(ngModel)]="contato.name" name="nome" placeholder="Digite seu nome completo">
-            </li>
-            <li>
-              <label for="endereco">Endereço</label>
-              <input type="text"  class="form-control" [(ngModel)]="contato.endereco" name="telefone" placeholder="Digie o seu endereço">
-            </li>
-            <li>
-              <label for="email">Email</label>
-              <input type="email" class="form-control" [(ngModel)]="contato.email" name="telefone" placeholder="Digite o seu e-mail">
-            </li>
-            <li>
-              <label for="phone">Número</label>
-              <input type="text" class="form-control" [(ngModel)]="contato.numeroCasa" name="nome" placeholder="Numero da residência">
-            </li>
-            <li>
-              <label for="complemento">Complemento</label>
-              <input type="text" class="form-control" [(ngModel)]="contato.complemento" name="telefone" placeholder="casa, condominio, apartamento etc...">
-            </li>
-            <li>
-              <label for="phone">Contato</label>
-              <input type="tel" class="form-control" [(ngModel)]="contato.phone" name="telefone" placeholder="Telefone de contato">
-            </li>
+              <input type="text" class="form-control" [(ngModel)]="contato.name" name="nome" placeholder="Digite seu nome completo" #nome="ngModel">
+              <div *ngIf="!nome.valid && nome.touched"
+               class="alert alert-danger" role="alert">
+                 Nome é obrigatório.
+              </div>
+            </div>
+
+
+            <div class="form-group"[class.has-error]="!endereco.valid && endereco.touched">
+              <label for="text">Endereço</label>
+              <input type="text"  class="form-control" [(ngModel)]="contato.endereco" name="nome" placeholder="Digie o seu endereço" required #endereco="ngModel">
+              <div *ngIf="!endereco.valid && endereco.touched"
+              class="alert alert-danger" role="alert">
+                Endereço é obrigatório.
+             </div>
+            </div>
+
+
+            <div class="form-group"[class.has-error]="!email.valid && email.touched">
+              <label >E-mail</label>
+              <input type="email" class="form-control" [(ngModel)]="contato.email" name="nome" placeholder="Digite o seu e-mail"  #email="ngModel">
+              <div *ngIf="!email.valid && email.touched"
+              class="alert alert-danger" role="alert">
+                E-mail invalido.
+             </div>
+            </div>
+
+            <div class="form-group"[class.has-error]="!numeroCasa.valid && numeroCasa.touched">
+              <label >Número</label>
+              <input type="text" class="form-control" [(ngModel)]="contato.numeroCasa" name="nome" placeholder="Numero da residência"  #numeroCasa="ngModel">
+              <div *ngIf="!numeroCasa.valid && numeroCasa.touched"
+              class="alert alert-danger" role="alert">
+                Número invalido
+             </div>
+            </div>
+
+            <div class="form-group"[class.has-error]="!complemento.valid && complemento.touched">
+              <label for="text">Complemento</label>
+              <input type="text" class="form-control" [(ngModel)]="contato.complemento" name="nome" placeholder="casa, condominio, apartamento etc..." #complemento="ngModel">
+              <div *ngIf="!complemento.valid && complemento.touched"
+              class="alert alert-danger" role="alert">
+                Insira um complemento!!
+             </div>
+            </div>
+
+
+            <div class="form-group"[class.has-error]="!contato1.valid && contato1.touched">
+              <label for="tel">Contato</label>
+              <input type="tel" class="form-control" [(ngModel)]="contato.phone" name="nome" placeholder="Telefone de contato" #contato1="ngModel">
+              <div *ngIf="!contato1.valid && contato1.touched"
+              class="alert alert-danger" role="alert">
+                Insira um telefone para contato!!
+             </div>
+            </div>
+
+
             <br>
             <br>
-            <label for="exampleFormControlSelect1">INFORMAÇÕES DE DOAÇÃO</label>
-            <select class="form-control" [(ngModel)]="contato.informacoes" name="telefone">
+            <div class="form-group"[class.has-error]="!informacoes.valid && informacoes.touched">
+            <label for="text">INFORMAÇÕES DE DOAÇÃO</label>
+            <select class="form-control" [(ngModel)]="contato.informacoes" name="nome" #informacoes="ngModel">
               <option></option>
               <option>Alimentos</option>
-              <option>Produtos de Lipeza</option>
+              <option>Produtos de Limpeza</option>
               <option>Higiêne Pessoal</option>
+              <option>Roupas e agasalhos</option>
               <option>Outros</option>
             </select>
+            <div *ngIf="!informacoes.valid && informacoes.touched"
+              class="alert alert-danger" role="alert">
+                Escolha uma opção
+             </div>
+          </div>
             <br>
             <br>
             <br>
             <br>
+
+
             <div class="form-group">
               <label for="exampleFormControlTextarea1">ALGUMA OBSERVAÇÃO?</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" [(ngModel)]="contato.observacao" name="telefone" rows="3"></textarea>
+              <textarea class="form-control" id="exampleFormControlTextarea1" [(ngModel)]="contato.observacao" name="nome" rows="3" maxlength="500"></textarea>
             </div>
-            <li>
-              <button id="submit" type="submit">enviar</button>
-            </li>
+            <div>
+              <button id="submit" type="submit" [disabled]="!f.valid">enviar</button>
+            </div>
           </ul>
         </form>
         <br>
