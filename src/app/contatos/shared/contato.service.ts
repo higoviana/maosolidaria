@@ -20,4 +20,16 @@ export class ContatoService {
         console.log(result.key);
       });
   }
+
+
+
+  getAll() {
+    return this.db.list('contato')
+      .snapshotChanges()
+      .pipe(
+        map(changes => {
+          return changes.map(c => ({ key: c.payload.key, ...<any>c.payload.val() }));
+        })
+      );
+  }
 }

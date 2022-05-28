@@ -28,6 +28,9 @@ import { List2Component } from './voluntarios/list2/list2.component';
 import { ArquivosComponent } from './arquivos/arquivos.component';
 
 
+//import {AgmCoreModule } from '@agm/core';
+
+
 
 
 @NgModule({
@@ -59,7 +62,11 @@ import { ArquivosComponent } from './arquivos/arquivos.component';
     FormsModule,
     MatInputModule,
     MatCardModule,
-    MatToolbarModule
+    MatToolbarModule,
+
+    //AgmCoreModule.forRoot({
+      //apiKey: 'CHAVES_GOOGLE_MAPS'
+    //})
 
   ],
   providers: [],
