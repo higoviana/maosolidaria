@@ -33,8 +33,9 @@
 
             <div class="form-group"
             [class.has-error]="!nome.valid && nome.touched">
-              <label for="name">Nome Completo</label>
-              <input type="text" class="form-control" [(ngModel)]="contato.name" name="nome" placeholder="Digite seu nome completo" #nome="ngModel">
+              <label for="name"><b>Nome Completo</b></label>
+              <input type="text" class="form-control"  maxlength="40" [(ngModel)]="contato.name" name="nome" placeholder="Digite seu nome completo" #nome="ngModel">
+              <br>
               <div *ngIf="!nome.valid && nome.touched"
                class="alert alert-danger" role="alert">
                  Nome é obrigatório.
@@ -43,8 +44,9 @@
 
 
             <div class="form-group"[class.has-error]="!endereco.valid && endereco.touched">
-              <label for="text">Endereço</label>
-              <input type="text"  class="form-control" [(ngModel)]="contato.endereco" name="nome" placeholder="Digie o seu endereço" required #endereco="ngModel">
+              <label for="text"><b>Endereço</b></label>
+              <input type="text"  class="form-control"  maxlength="70"  [(ngModel)]="contato.endereco" name="nome" placeholder="Digie o seu endereço" required #endereco="ngModel">
+              <br>
               <div *ngIf="!endereco.valid && endereco.touched"
               class="alert alert-danger" role="alert">
                 Endereço é obrigatório.
@@ -53,8 +55,9 @@
 
 
             <div class="form-group"[class.has-error]="!email.valid && email.touched">
-              <label >E-mail</label>
+              <label ><b>E-mail</b></label>
               <input type="email" class="form-control" [(ngModel)]="contato.email" name="nome" placeholder="Digite o seu e-mail"  #email="ngModel">
+              <br>
               <div *ngIf="!email.valid && email.touched"
               class="alert alert-danger" role="alert">
                 E-mail invalido.
@@ -62,8 +65,9 @@
             </div>
 
             <div class="form-group"[class.has-error]="!numeroCasa.valid && numeroCasa.touched">
-              <label >Número</label>
-              <input type="text" class="form-control" [(ngModel)]="contato.numeroCasa" name="nome" placeholder="Numero da residência"  #numeroCasa="ngModel">
+              <label><b>Número</b></label>
+              <input type="text" class="form-control"  maxlength="5"  [(ngModel)]="contato.numeroCasa" name="nome" placeholder="Numero da residência"  #numeroCasa="ngModel">
+              <br>
               <div *ngIf="!numeroCasa.valid && numeroCasa.touched"
               class="alert alert-danger" role="alert">
                 Número invalido
@@ -71,8 +75,9 @@
             </div>
 
             <div class="form-group"[class.has-error]="!complemento.valid && complemento.touched">
-              <label for="text">Complemento</label>
-              <input type="text" class="form-control" [(ngModel)]="contato.complemento" name="nome" placeholder="casa, condominio, apartamento etc..." #complemento="ngModel">
+              <label for="text"><b>Complemento</b></label>
+              <input type="text" class="form-control"  maxlength="20" [(ngModel)]="contato.complemento" name="nome" placeholder="casa, condominio, apartamento etc..." #complemento="ngModel">
+              <br>
               <div *ngIf="!complemento.valid && complemento.touched"
               class="alert alert-danger" role="alert">
                 Insira um complemento!!
@@ -81,8 +86,9 @@
 
 
             <div class="form-group"[class.has-error]="!contato1.valid && contato1.touched">
-              <label for="tel">Contato</label>
-              <input type="tel" class="form-control" [(ngModel)]="contato.phone" name="nome" placeholder="Telefone de contato" #contato1="ngModel">
+              <label for="text"><b>Contato</b></label>
+              <input type="text" class="form-control"  maxlength="18"  [(ngModel)]="contato.phone" name="nome" placeholder="Telefone de contato" #contato1="ngModel">
+              <br>
               <div *ngIf="!contato1.valid && contato1.touched"
               class="alert alert-danger" role="alert">
                 Insira um telefone para contato!!
@@ -93,7 +99,7 @@
             <br>
             <br>
             <div class="form-group"[class.has-error]="!informacoes.valid && informacoes.touched">
-            <label for="text">INFORMAÇÕES DE DOAÇÃO</label>
+            <label for="text"><b>INFORMAÇÕES DE DOAÇÃO</b></label>
             <select class="form-control" [(ngModel)]="contato.informacoes" name="nome" #informacoes="ngModel">
               <option></option>
               <option>Alimentos</option>
@@ -113,8 +119,9 @@
             <br>
 
 
+
             <div class="form-group">
-              <label for="exampleFormControlTextarea1">ALGUMA OBSERVAÇÃO?</label>
+              <label for="exampleFormControlTextarea1"><b>ALGUMA OBSERVAÇÃO?</b></label>
               <textarea class="form-control" id="exampleFormControlTextarea1" [(ngModel)]="contato.observacao" name="nome" rows="3" maxlength="500"></textarea>
             </div>
             <div>

@@ -29,8 +29,9 @@
             <ul>
               <div class="form-group"
               [class.has-error]="!nome.valid && nome.touched">
-                <label for="name">Nome Completo</label>
-                <input type="text" class="form-control" [(ngModel)]="voluntario.name" name="nome" placeholder="Digite seu nome completo" required #nome="ngModel">
+                <label for="name"><b>Nome Completo</b></label>
+                <input type="text" class="form-control" maxlength="40" [(ngModel)]="voluntario.name" name="nome" placeholder="Digite seu nome completo" required #nome="ngModel">
+                <br>
                 <div *ngIf="!nome.valid && nome.touched"
                  class="alert alert-danger" role="alert">
                    Nome é obrigatório.
@@ -38,8 +39,9 @@
               </div>
 
               <div class="form-group"[class.has-error]="!endereco.valid && endereco.touched">
-                <label for="text">Endereço</label>
-                <input type="text"  class="form-control" [(ngModel)]="voluntario.endereco" name="nome" placeholder="Digie o seu endereço" required #endereco="ngModel">
+                <label for="text"><b>Endereço</b></label>
+                <input type="text"  class="form-control" maxlength="70"[(ngModel)]="voluntario.endereco" name="nome" placeholder="Digie o seu endereço" required #endereco="ngModel">
+                <br>
                 <div *ngIf="!endereco.valid && endereco.touched"
                 class="alert alert-danger" role="alert">
                   Endereço é obrigatório.
@@ -47,8 +49,9 @@
               </div>
 
               <div class="form-group"[class.has-error]="!email.valid && email.touched">
-                <label >E-mail</label>
+                <label><b>E-mail</b></label>
                 <input type="email" class="form-control" [(ngModel)]="voluntario.email" name="nome" placeholder="Digite o seu e-mail"  #email="ngModel">
+                <br>
                 <div *ngIf="!email.valid && email.touched"
                 class="alert alert-danger" role="alert">
                   E-mail invalido.
@@ -57,8 +60,9 @@
 
 
               <div class="form-group"[class.has-error]="!numeroCasa.valid && numeroCasa.touched">
-                <label >Número</label>
-                <input type="text" class="form-control" [(ngModel)]="voluntario.numeroCasa" name="nome" placeholder="Numero da residência"  #numeroCasa="ngModel">
+                <label><b>Número</b></label>
+                <input type="text" class="form-control" maxlength="5" [(ngModel)]="voluntario.numeroCasa" name="nome" placeholder="Numero da residência"  #numeroCasa="ngModel">
+                <br>
                 <div *ngIf="!numeroCasa.valid && numeroCasa.touched"
                 class="alert alert-danger" role="alert">
                   Número invalido
@@ -66,8 +70,9 @@
               </div>
 
               <div class="form-group"[class.has-error]="!complemento.valid && complemento.touched">
-                <label for="text">Complemento</label>
-                <input type="text" class="form-control" [(ngModel)]="voluntario.complemento" name="nome" placeholder="casa, condominio, apartamento etc..." #complemento="ngModel">
+                <label for="text"><b>Complemento</b></label>
+                <input type="text" class="form-control" maxlength="20"[(ngModel)]="voluntario.complemento" name="nome" placeholder="casa, condominio, apartamento etc..." #complemento="ngModel">
+                <br>
                 <div *ngIf="!complemento.valid && complemento.touched"
                 class="alert alert-danger" role="alert">
                   Insira um complemento!!
@@ -75,8 +80,9 @@
               </div>
 
               <div class="form-group"[class.has-error]="!contato1.valid && contato1.touched">
-                <label for="tel">Contato</label>
-                <input type="tel" class="form-control" [(ngModel)]="voluntario.phone" name="nome" placeholder="Telefone de contato" #contato1="ngModel">
+                <label for="text"><b>Contato</b></label>
+                <input type="text" class="form-control" maxlength="18" [(ngModel)]="voluntario.phone" name="nome" placeholder="Telefone de contato" #contato1="ngModel">
+                <br>
                 <div *ngIf="!contato1.valid && contato1.touched"
                 class="alert alert-danger" role="alert">
                   Insira um telefone para contato!!
@@ -84,18 +90,18 @@
               </div>
 
               <div class="form-group"[class.has-error]="!cpf.valid && cpf.touched">
-                <label for="number">CPF</label>
-                <input type="number" class="form-control" [(ngModel)]="voluntario.cpf" name="nome" placeholder="Telefone de contato" #cpf="ngModel">
+                <label for="text"><b>CPF</b></label>
+                <input type="text" class="form-control" maxlength="11"[(ngModel)]="voluntario.cpf" name="nome" placeholder="000.000.000-00" #cpf="ngModel">
+                <br>
                 <div *ngIf="!cpf.valid && cpf.touched"
                 class="alert alert-danger" role="alert">
                   Insira um CPF valido
                </div>
               </div>
-
           </ul>
             <br>
             <br>
-            <label for="exampleFormControlSelect1">MAIS INFORMAÇÕES</label>
+            <label for="exampleFormControlSelect1"><b>MAIS INFORMAÇÕES</b></label>
             <br>
             <p>Porque deseja ser um voluntário? Já trabalhou em alguma ONG ou prestou algum serviço comunitário?</p>
             <textarea class="form-control" [(ngModel)]="voluntario.motivo" name="nome" rows="3" maxlength="100"></textarea>
@@ -106,12 +112,11 @@
             <br>
             <br>
             <div class="form-group">
-              <label for="exampleFormControlTextarea1">OBSERVAÇÕES</label>
+              <label for="exampleFormControlTextarea1"><b>OBSERVAÇÕES</b></label>
               <textarea class="form-control" [(ngModel)]="voluntario.observacao"  name="nome" rows="3" maxlength="500"></textarea>
             </div>
             <div>
               <button class="enviar" type="submit" [disabled]="!f.valid">enviar</button>
-
             </div>
           </div>
         </form>
