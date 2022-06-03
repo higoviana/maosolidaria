@@ -11,16 +11,17 @@ Para realizar o mundo que todos sonhamos, acreditamos que o caminho é ajudar e 
 1. Ao acessar a página logo ao começo o usuário encontrará um botão "QUERO DOAR" que ao ser clicado vai abrir um formulário para que ele possa preencher os dados e o item que quer doar, exemplo: alimentos, roupas, calçados, valor etc. após isso terá um botão para que o usuário possa escolher o horário para retirada da doação.
 
 ![Logo do R](https://coruscating-dodol-001caf.netlify.app/Slide1.JPG)
+![Logo do R](https://coruscating-dodol-001caf.netlify.app/Slide2.JPG)
 ***
 2. Na página principal logo ao começo na barra de navegação terá um botão galeria que ao ser clicado irá direcionar o usuário para a seção galeria.
 
 ![Logo do R](https://coruscating-dodol-001caf.netlify.app/Slide3.JPG)
+![Logo do R](https://coruscating-dodol-001caf.netlify.app/Slide4.JPG)
 ***
 
 3. Na página principal logo ao começo na barra de navegação terá um botão notícias que ao ser clicado irá direcionar o usuário para a seção notícias.
 
-![Logo do R](https://coruscating-dodol-001caf.netlify.app/Slide4.JPG)
-***
+![Logo do R](https://coruscating-dodol-001caf.netlify.app/Slide5.JPG)
 ![Logo do R](https://coruscating-dodol-001caf.netlify.app/Slide6.JPG)
 ***
 4. Na página principal logo ao começo na barra de navegação terá um botão pontos de coleta que ao ser clicado irá direcionar o usuário para uma página que mostrará um mapa com os pontos de doação (EM DESENVOLVIMENTO).
@@ -58,10 +59,8 @@ Para realizar o mundo que todos sonhamos, acreditamos que o caminho é ajudar e 
 
 Atualmente o projeto ainda está em desenvolvimento pois precisamos finalizar a inserção da API do Google Mapas e alguns detalhes do front-end.
 
-# Tecnologias utilizadas
-![Logo do R](https://as2.ftcdn.net/v2/jpg/02/95/03/851000_F_295038583_mn0uxJ6A0YO57HA4xXQqHFUjiW1BcqBE.jpg)
-![Logo do R](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/adonisjs/adonisjs-original.svg)
-***
+# Tecnologias utilizadas:
+Angular e Bootstrap
 
 # Autores: 
 - Carlos Eduardo Rosendo Basseto, RA: 821231390 (responsável pela apresentação em slides
