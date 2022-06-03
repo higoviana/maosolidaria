@@ -16,7 +16,7 @@ Para realizar o mundo que todos sonhamos, acreditamos que o caminho é ajudar e 
 2. Na página principal logo ao começo na barra de navegação terá um botão galeria que ao ser clicado irá direcionar o usuário para a seção galeria.
 
 ![Logo do R](https://coruscating-dodol-001caf.netlify.app/Slide3.JPG)
-<center>![Logo do R](https://coruscating-dodol-001caf.netlify.app/Slide4.JPG)</center>
+![Logo do R](https://coruscating-dodol-001caf.netlify.app/Slide4.JPG)
 ***
 
 3. Na página principal logo ao começo na barra de navegação terá um botão notícias que ao ser clicado irá direcionar o usuário para a seção notícias.
