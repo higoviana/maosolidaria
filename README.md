@@ -2,6 +2,8 @@
 
 Este é um projeto de um site cujo objetivo de forma prática seria demonstrar os conhecimentos adquiridos nas UCs de "Sistemas Distribuídos" e "Desenvolvimento Web" da Universidade São Judas Tadeu (1º período de 2022) no qual o tema seria "Soluções de retomada pós pandemia".
 
+O site está hospedado em: <https://maosolidaria.netlify.app>
+
 # Apresentação!!
 Somos a Mão Solidária, um projeto que une pessoas e instituições que desejam ajudar o próximo.
 Para realizar o mundo que todos sonhamos, acreditamos que o caminho é ajudar e incentivar as pessoas.
@@ -60,26 +62,13 @@ Para realizar o mundo que todos sonhamos, acreditamos que o caminho é ajudar e 
 Atualmente o projeto ainda está em desenvolvimento pois precisamos finalizar a inserção da API do Google Mapas e alguns detalhes do front-end.
 
 # Tecnologias utilizadas:
-Angular e Bootstrap
+Angular, Bootstrap e Firebase.
+
 (Todas as imagens utilizadas foram retiradas do site "PEXELS" uma plataforma de imagens gratuitas para utilizar em diversos projetos, a logo foi desenvolvida no site "Logaster")
 
-Nosso sinceros agradecimentos as pessoas que contribuiram com as imagens gratis que utilizamos no Pexels:
+### Nosso sinceros agradecimentos as pessoas que contribuiram com as imagens grátis que utilizamos no Pexels: ###
 
-[ Foto de Julia M Cameron no Pexels ]
-- Foto de ANTONI SHKRABA no Pexels
-- Foto de RODNAE Productions no Pexels
-- Foto de Julia M Cameron no Pexels
-- Foto de ANTONI SHKRABA no Pexels
-- Foto de RODNAE Productions no Pexels
-- Foto de RODNAE Productions no Pexels
-- Foto de RODNAE Productions no Pexels
-- Foto de RODNAE Productions no Pexels
-- Foto de cottonbro no Pexels
-- Foto de Vlada Karpovich no Pexels
-- Foto de Anthony Beck no Pexels
-- Foto de Oleg Magni no Pexels
-- Foto de Rene Asmussen no Pexels
-- Foto de MART PRODUCTION no Pexels
+Fotos de Julia M Cameron, ANTONI SHKRABA, RODNAE Productions, Cottonbro no Pexels, Vlada Karpovich, Anthony Beck no Pexels, Oleg Magni, Rene Asmussen no Pexels e MART PRODUCTION.
 
 # Autores desse projeto: 
 - Carlos Eduardo Rosendo Basseto, RA: 821231390 (responsável pela apresentação em slides
@@ -88,7 +77,7 @@ Nosso sinceros agradecimentos as pessoas que contribuiram com as imagens gratis 
 - Guilherme de Miranda Calou, RA: 821147284 (responsável divulgação do produto)
 - Jonas Santos Carezzato, RA: 821148108 (responsável pela apresentação em slides)
 
-# Referências
-FOTOS PROFISSIONAIS GRATUITAS. Pexels, 2022. Disponível em: <https://www.pexels.com/pt-br/>. Acesso em: 14, Abril 2022.
+# Referências: 
+FOTOS PROFISSIONAIS GRATUITAS. **Pexels**, 2022. Disponível em: <https://www.pexels.com/pt-br/>. Acesso em: 14, Abril 2022.
 
-CRIAR LOGOTIPOS. Logaster, 2022. Disponível em: <https://www.logaster.com.br/>. Acesso em: 14, Abril 2022.
+CRIAR LOGOTIPOS. **Logaster**, 2022. Disponível em: <https://www.logaster.com.br/>. Acesso em: 14, Abril 2022.
