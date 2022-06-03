@@ -59,8 +59,9 @@ Para realizar o mundo que todos sonhamos, acreditamos que o caminho é ajudar e 
 Atualmente o projeto ainda está em desenvolvimento pois precisamos finalizar a inserção da API do Google Mapas e alguns detalhes do front-end.
 
 # Tecnologias utilizadas
-<i class="devicon-adonisjs-original colori"></i>
-<i class="devicon-adonisjs-original colori"></i>
+![Logo do R](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/adonisjs/adonisjs-original.svg)
+![Logo do R](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/adonisjs/adonisjs-original.svg)
+***
 
 # Autores: 
 - Carlos Eduardo Rosendo Basseto, RA: 821231390 (responsável pela apresentação em slides
