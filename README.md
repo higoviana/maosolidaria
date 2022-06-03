@@ -65,21 +65,21 @@ Angular e Bootstrap
 
 Nosso sinceros agradecimentos as pessoas que contribuiram com as imagens gratis que utilizamos no Pexels:
 
-Foto de Julia M Cameron no Pexels
-Foto de ANTONI SHKRABA no Pexels
-Foto de RODNAE Productions no Pexels
-Foto de Julia M Cameron no Pexels
-Foto de ANTONI SHKRABA no Pexels
-Foto de RODNAE Productions no Pexels
-Foto de RODNAE Productions no Pexels
-Foto de RODNAE Productions no Pexels
-Foto de RODNAE Productions no Pexels
-Foto de cottonbro no Pexels
-Foto de Vlada Karpovich no Pexels
-Foto de Anthony Beck no Pexels
-Foto de Oleg Magni no Pexels
-Foto de Rene Asmussen no Pexels
-Foto de MART PRODUCTION no Pexels
+[ Foto de Julia M Cameron no Pexels ]
+- Foto de ANTONI SHKRABA no Pexels
+- Foto de RODNAE Productions no Pexels
+- Foto de Julia M Cameron no Pexels
+- Foto de ANTONI SHKRABA no Pexels
+- Foto de RODNAE Productions no Pexels
+- Foto de RODNAE Productions no Pexels
+- Foto de RODNAE Productions no Pexels
+- Foto de RODNAE Productions no Pexels
+- Foto de cottonbro no Pexels
+- Foto de Vlada Karpovich no Pexels
+- Foto de Anthony Beck no Pexels
+- Foto de Oleg Magni no Pexels
+- Foto de Rene Asmussen no Pexels
+- Foto de MART PRODUCTION no Pexels
 
 # Autores desse projeto: 
 - Carlos Eduardo Rosendo Basseto, RA: 821231390 (responsável pela apresentação em slides
