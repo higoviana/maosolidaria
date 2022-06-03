@@ -59,7 +59,7 @@ Para realizar o mundo que todos sonhamos, acreditamos que o caminho é ajudar e 
 Atualmente o projeto ainda está em desenvolvimento pois precisamos finalizar a inserção da API do Google Mapas e alguns detalhes do front-end.
 
 # Tecnologias utilizadas
-![Logo do R](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/adonisjs/adonisjs-original.svg)
+![Logo do R](https://as2.ftcdn.net/v2/jpg/02/95/03/851000_F_295038583_mn0uxJ6A0YO57HA4xXQqHFUjiW1BcqBE.jpg)
 ![Logo do R](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/adonisjs/adonisjs-original.svg)
 ***
 
