@@ -1,7 +1,8 @@
 h1 {
   font-family: 'Ubuntu', sans-serif;
-  font-size: 30px;
+  font-size: 35px;
   text-align: center;
+  color: rgb(233, 227, 227);
 }
 
 p {
@@ -9,5 +10,21 @@ p {
   padding-left: 30px;
   padding-top: 15px;
   padding-bottom: 15px;
-  font-size: 20px;
+  font-size: calc(1em + 0.1vw);
+}
+
+body {
+  background-image: url('./imagem-doadores.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size:100%;
+  bottom: 0;
+  color: black;
+  left: 0;
+  overflow: auto;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  background-size: cover;
 }

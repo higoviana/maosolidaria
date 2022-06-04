@@ -26,7 +26,7 @@
       <div class="container">
         <br>
         <br>
-        <form #f="ngForm" (ngSubmit)="onSubmit()">
+        <form (ngSubmit)="onSubmit()">
           <hr class="featurette-divider">
           <ul class="flex-outer">
 
@@ -85,6 +85,7 @@
             </div>
 
 
+
             <div class="form-group"[class.has-error]="!contato1.valid && contato1.touched">
               <label for="text"><b>Contato</b></label>
               <input type="text" class="form-control"  maxlength="18"  [(ngModel)]="contato.phone" name="nome" placeholder="Telefone de contato" #contato1="ngModel">
@@ -94,8 +95,6 @@
                 Insira um telefone para contato!!
              </div>
             </div>
-
-
             <br>
             <br>
             <div class="form-group"[class.has-error]="!informacoes.valid && informacoes.touched">
@@ -116,8 +115,18 @@
             <br>
             <br>
             <br>
-            <br>
 
+
+            <div class="form-group">
+              <label for="text"><b>AGENDAR RETIRADA: &nbsp; &nbsp;</b></label>
+              <input id="date" type="date"  [(ngModel)]="contato.dataRetirada" name="nome"> &nbsp;
+              <input type="time" id="appt" name="appt" min="09:00" max="18:00" required  [(ngModel)]="contato.horaRetirada" name="nome">
+              <br>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
 
 
             <div class="form-group">
@@ -125,7 +134,7 @@
               <textarea class="form-control" id="exampleFormControlTextarea1" [(ngModel)]="contato.observacao" name="nome" rows="3" maxlength="500"></textarea>
             </div>
             <div>
-              <button id="submit" type="submit" [disabled]="!f.valid">enviar</button>
+              <button id="submit" type="submit">enviar</button>
             </div>
           </ul>
         </form>

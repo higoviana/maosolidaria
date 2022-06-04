@@ -61,6 +61,19 @@ button {
   border-radius: 2px;
   }
 
+  #date {
+    border-radius: 8px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    border-color: white;
+  }
+
+  #appt {
+    border-radius: 8px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    border-color: white;
+  }
 
 /* Ativação do botão menu pagina responsiva */
 .checkbtn {

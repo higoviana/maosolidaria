@@ -10,24 +10,38 @@
   <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   </head>
+  <navbar></navbar>
   <body>
-    <navbar></navbar>
     <br>
     <br>
     <br>
     <br>
     <br>
     <p></p>
-    <h1>Últimos doadores</h1>
+    <h1><b>Últimos doadores</b></h1>
     <br>
-    <div class="card mt-2" *ngFor="let contato of contatos | async">
+    <br>
+    <br>
+    <br>
+    <br>
+    <section style="text-align: justify; padding-left: 20px; ">
+    <div class="card" style="width: 30rem; max-width: 1250px;
+    -webkit-box-shadow: 0 0 50px 5px rgba(0,0,0,0.15);
+    box-shadow: 0 0 50px 5px rgba(0,0,0,0.15);
+    position: relative;
+    margin: -40px auto 0;
+    background: #fff;
+    z-index: 10;
+    margin-bottom: 50px; border-radius: 5px; background-color: rgb(201, 220, 214);" *ngFor="let contato of contatos | async">
       <div>
-        <p class="card-title"><b>Nome completo:</b> &nbsp;{{contato.name}} &nbsp; &nbsp; <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+        <p class="card-title"><b>Nome:</b> &nbsp;{{contato.name}} &nbsp; &nbsp; <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
           <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
         </svg></p>
-        <p class="card-text"><b>Informações da doação:</b> &nbsp;{{contato.informacoes}}</p>
+        <p class="card-text"><b>Tipo de doação:</b> &nbsp;{{contato.informacoes}}</p>
+      </div>
      </div>
-     </div>
+    </section>
      <rodape></rodape>
   </body>
 </html>
+

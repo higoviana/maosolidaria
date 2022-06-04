@@ -6,6 +6,8 @@ export class Contato {
   complemento: string = '';
   phone: string = '';
   informacoes: string = '';
+  dataRetirada: string = '';
+  horaRetirada: string = '';
   observacao: string = '';
 
 }
