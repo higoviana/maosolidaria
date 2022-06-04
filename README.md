@@ -15,6 +15,7 @@ Para realizar o mundo que todos sonhamos, acreditamos que o caminho é ajudar e 
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 ![Logo do R](https://coruscating-dodol-001caf.netlify.app/Slide1.JPG)
+&nbsp;
 ![Logo do R](https://coruscating-dodol-001caf.netlify.app/Slide2.JPG)
 
 ---
@@ -23,6 +24,7 @@ Para realizar o mundo que todos sonhamos, acreditamos que o caminho é ajudar e 
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 ![Logo do R](https://coruscating-dodol-001caf.netlify.app/Slide3.JPG)
+&nbsp;
 ![Logo do R](https://coruscating-dodol-001caf.netlify.app/Slide4.JPG)
 
 ---
@@ -31,6 +33,7 @@ Para realizar o mundo que todos sonhamos, acreditamos que o caminho é ajudar e 
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 ![Logo do R](https://coruscating-dodol-001caf.netlify.app/Slide5.JPG)
+&nbsp;
 ![Logo do R](https://coruscating-dodol-001caf.netlify.app/Slide6.JPG)
 
 ---
@@ -53,6 +56,7 @@ Para realizar o mundo que todos sonhamos, acreditamos que o caminho é ajudar e 
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 ![Logo do R](https://coruscating-dodol-001caf.netlify.app/Slide9.JPG)
+&nbsp;
 ![Logo do R](https://coruscating-dodol-001caf.netlify.app/Slide10.JPG)
 
 ---
@@ -66,6 +70,7 @@ Para realizar o mundo que todos sonhamos, acreditamos que o caminho é ajudar e 
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 ![Logo do R](https://coruscating-dodol-001caf.netlify.app/Slide11.JPG)
+&nbsp;
 ![Logo do R](https://coruscating-dodol-001caf.netlify.app/Slide12.JPG)
 
 ---
@@ -73,12 +78,13 @@ Para realizar o mundo que todos sonhamos, acreditamos que o caminho é ajudar e 
 9. Terá também um link "hall da fama" que ao ser clicado irá direcionar o usuário para uma página que mostra um ranking das últimas pessoas que fizeram doações.
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
    ![Logo do R](https://coruscating-dodol-001caf.netlify.app/Slide13.JPG)
+   &nbsp;
    ![Logo do R](https://coruscating-dodol-001caf.netlify.app/Slide14.JPG)
 
 ---
 
-10. E por último no final da página fica um rodapé com todas as informações "contatos, política, termos de uso, redes sociais etc.".
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+10. E por último no final da página fica um rodapé com todas as informações "contatos, política, termos de uso, redes sociais etc...
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     ![Logo do R](https://coruscating-dodol-001caf.netlify.app/Slide15.JPG)
 
 ---
@@ -88,15 +94,14 @@ Atualmente o projeto ainda está em desenvolvimento pois precisamos finalizar a 
 
 # Tecnologias utilizadas:
 ![Logo do R](https://img.icons8.com/color/344/bootstrap.png)
+&nbsp;
 ![Logo do R](https://img.icons8.com/color/344/angularjs.png)
-
-Angular, Bootstrap e Firebase.
 &nbsp;&nbsp;
 
 (Todas as imagens utilizadas foram retiradas do site "PEXELS" uma plataforma de imagens gratuitas para utilizar em diversos projetos, a logo foi desenvolvida no site "Logaster")
 &nbsp;&nbsp;
 
-### Nosso sinceros agradecimentos as pessoas que contribuiram com as imagens grátis que utilizamos no Pexels:
+### Nosso sinceros agradecimentos as pessoas que contribuiram com as imagens grátis que utilizamos no Pexels: 👏👏
 
 Fotos de Julia M Cameron, ANTONI SHKRABA, RODNAE Productions, Cottonbro no Pexels, Vlada Karpovich, Anthony Beck no Pexels, Oleg Magni, Rene Asmussen no Pexels e MART PRODUCTION.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
