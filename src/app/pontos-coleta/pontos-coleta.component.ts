@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Loader } from '@googlemaps/js-api-loader';
+import { styles } from './mapstyles';
 
 @Component({
   selector: 'app-pontos-coleta',
@@ -7,9 +9,33 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PontosColetaComponent implements OnInit {
 
-  constructor() { }
+  title = 'google-maps';
+
+  private map: google.maps.Map | undefined
 
   ngOnInit(): void {
-  }
+    let loader = new Loader({
+      apiKey: 'AIzaSyBHKk2Th-VElF3zNikl9CYt1_mNIhW6Ric',
+    });
 
+    loader.load().then(() => {
+      console.log('loaded gmaps')
+
+      const location = { lat: -23.533674229736704, lng: -46.65165360695787 }
+
+
+      this.map = new google.maps.Map(<any> document.getElementById("map"), {
+        center: location,
+        zoom: 11,
+        //styles: styles
+      })
+
+      const marker = new google.maps.Marker({
+        position: location,
+        map: this.map,
+
+
+      });
+    })
+  }
 }

@@ -16,7 +16,6 @@ const  APP_ROUTES: Routes = [
   {path: 'pontos', component: PontosColetaComponent},
   {path: 'edit', component: EditComponent},
   {path: 'voluntario', component: Edit2Component},
-  {path: 'edit', component: EditComponent},
   {path: 'hall', component: ListComponent},
 ];
 
