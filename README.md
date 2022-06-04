@@ -87,6 +87,8 @@ Atualmente o projeto ainda está em desenvolvimento pois precisamos finalizar a 
 &nbsp;&nbsp;&nbsp;
 
 # Tecnologias utilizadas:
+![Logo do R](https://img.icons8.com/color/344/bootstrap.png)
+![Logo do R](https://img.icons8.com/color/344/angularjs.png)
 
 Angular, Bootstrap e Firebase.
 &nbsp;&nbsp;
@@ -99,7 +101,7 @@ Angular, Bootstrap e Firebase.
 Fotos de Julia M Cameron, ANTONI SHKRABA, RODNAE Productions, Cottonbro no Pexels, Vlada Karpovich, Anthony Beck no Pexels, Oleg Magni, Rene Asmussen no Pexels e MART PRODUCTION.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-# Autores desse projeto:
+# 👨‍💻 Autores desse projeto:
 
 - Carlos Eduardo Rosendo Basseto, RA: 821231390 (responsável pela apresentação em slides) -> [ https://github.com/KaduRosendo ]
 - Francisco Higo Viana Alves, RA: 820265881 (responsável pelo desenvolvimento front, back-end e estrutura de design do site) -> [ https://github.com/higoviana ]
@@ -107,6 +109,11 @@ Fotos de Julia M Cameron, ANTONI SHKRABA, RODNAE Productions, Cottonbro no Pexel
 - Guilherme de Miranda Calou, RA: 821147284 (responsável divulgação do produto) -> [ https://github.com/guilhermecalou ]
 - Jonas Santos Carezzato, RA: 821148108 (responsável pela apresentação em slides) -> [ https://github.com/CarezzatoJ ]
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  
+# 👨‍🏫 Professores orientadores: 
+- Andreia Cristina Grisolio Machion (Usabilidade, desenvolvimento web, mobile e jogos - Prática)
+- José Carmino Gomes Junior (Sistemas distribuídos e mobile - Prática)
+- Marcelo de Moura Amorim (Usabilidade, desenvolvimento web, mobile e jogos e Sistemas distribuídos e mobile - Teórica)
 
 # Referências:
 
