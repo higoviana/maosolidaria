@@ -7,9 +7,10 @@
     "node": ">=14.19.0",
     "npm": ">=7.6.0"
   },
-  "optionalDependencies": {
-    "fsevents": "*"
- },
+  "os": [
+    "darwin",
+    "win32"
+  ],
   "dependencies": {
     "@angular-devkit/build-angular": "^14.0.0",
     "@angular/animations": "^14.0.0",
