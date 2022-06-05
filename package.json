@@ -726,7 +726,8 @@
   "devDependencies": {
     "@angular/cli": "^14.0.0",
     "@angular/compiler-cli": "^14.0.0",
-    "@types/googlemaps": "^3.43.3"
+    "@types/googlemaps": "^3.43.3",
+    "msw": "^0.42.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
