@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Loader } from '@googlemaps/js-api-loader';
 import { styles } from './mapstyles';
 
+
 @Component({
   selector: 'app-pontos-coleta',
   templateUrl: './pontos-coleta.component.html',

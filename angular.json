@@ -104,5 +104,8 @@
       }
     }
   },
-  "defaultProject": "maosolidaria2"
+  "defaultProject": "maosolidaria2",
+  "cli": {
+    "analytics": "9ff1a617-8b09-4f1e-94d1-b0903fa8e9ae"
+  }
 }
