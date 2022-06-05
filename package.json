@@ -7,12 +7,10 @@
     "node": ">=14.19.0",
     "npm": ">=7.6.0"
   },
-
-"os" : [
-  "darwin",
-  "win32"
-],
-
+  "os": [
+    "darwin",
+    "win32"
+  ],
   "dependencies": {
     "@angular-devkit/build-angular": "^14.0.0",
     "@angular/animations": "^14.0.0",
@@ -244,7 +242,6 @@
     "fs-minipass": "^2.1.0",
     "fs-monkey": "^1.0.3",
     "fs.realpath": "^1.0.0",
-   
     "function-bind": "^1.1.1",
     "functions-have-names": "^1.2.3",
     "fuzzy": "^0.1.3",
