@@ -4,13 +4,8 @@
   "description": "Este é um projeto de um site cujo objetivo de forma prática seria demonstrar os conhecimentos adquiridos nas UCs de \"Sistemas distribuídos e mobile\" e \"Usabilidade, desenvolvimento web, mobile e jogos\" da Universidade São Judas Tadeu (1º período de 2022) no qual o tema seria \"Soluções de retomada pós pandemia\".",
   "main": "karma.conf.js",
   "engines": {
-    "node": ">=14.19.0",
-    "npm": ">=7.6.0"
+    "node": "14.19.0"
   },
-  "os": [
-    "darwin",
-    "win32"
-  ],
   "dependencies": {
     "@angular-devkit/build-angular": "^14.0.0",
     "@angular/animations": "^14.0.0",
