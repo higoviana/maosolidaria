@@ -84,9 +84,15 @@ Para realizar o mundo que todos sonhamos, acreditamos que o caminho é ajudar e 
 
 ---
 
-10. E por último no final da página fica um rodapé com todas as informações "contatos, política, termos de uso, redes sociais etc...
+10. No final da página fica um rodapé com todas as informações "contatos, política, termos de uso, redes sociais etc...
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     ![Logo do R](https://coruscating-dodol-001caf.netlify.app/Slide15.JPG)
+
+---
+
+11. Exemplo de como ficaria a resolução de tela aplicado a um aparelho de celular de modelo Samsung Galaxy S20 Ultra (mostrando a responsividade do site).
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     ![Logo do R](https://coruscating-dodol-001caf.netlify.app/Slide18.JPG)
 
 ---
 
