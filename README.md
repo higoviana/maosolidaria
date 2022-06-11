@@ -38,11 +38,12 @@ Para realizar o mundo que todos sonhamos, acreditamos que o caminho é ajudar e 
 
 ---
 
-4. Na página principal logo ao começo na barra de navegação terá um botão pontos de coleta que ao ser clicado irá direcionar o usuário para uma página que mostrará um mapa com os pontos de doação (EM DESENVOLVIMENTO).
+4. Na página principal logo ao começo na barra de navegação terá um botão pontos de coleta que ao ser clicado irá direcionar o usuário para uma página que mostrará um mapa com os pontos de doação.
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 ![Logo do R](https://coruscating-dodol-001caf.netlify.app/Slide7.JPG)
-
+&nbsp;
+![Logo do R](https://coruscating-dodol-001caf.netlify.app/Slide16.JPG)
 ---
 
 5. Na página principal logo ao começo na barra de navegação terá um botão home que ao ser clicado irá direcionar o usuário para a página principal.
@@ -83,13 +84,21 @@ Para realizar o mundo que todos sonhamos, acreditamos que o caminho é ajudar e 
 
 ---
 
-10. E por último no final da página fica um rodapé com todas as informações "contatos, política, termos de uso, redes sociais etc...
+10. No final da página fica um rodapé com todas as informações "contatos, política, termos de uso, redes sociais etc...
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     ![Logo do R](https://coruscating-dodol-001caf.netlify.app/Slide15.JPG)
 
 ---
 
-Atualmente o projeto ainda está em desenvolvimento pois precisamos finalizar a inserção da API do Google Mapas e alguns detalhes do front-end.
+11. Exemplo de como ficaria a resolução de tela aplicado a um aparelho de celular de modelo Samsung Galaxy S20 Ultra (mostrando a responsividade do site).
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     ![Logo do R](https://coruscating-dodol-001caf.netlify.app/Slide18.JPG)
+
+---
+
+Então essa é a ideia do nosso projeto com o intuito principal de atuar como uma ONG filantropica ajudando pessoas vulneráveis com doações (estamos abertos a propostas e também melhorias).
+
+Contate-me no E-mail: 📧 higoviana62@gmail.com
 &nbsp;&nbsp;&nbsp;
 
 # Tecnologias utilizadas:
@@ -97,6 +106,12 @@ Atualmente o projeto ainda está em desenvolvimento pois precisamos finalizar a 
 &nbsp;
 ![Logo do R](https://img.icons8.com/color/344/angularjs.png)
 &nbsp;&nbsp;
+
+O banco de dados que foi utilizado foi o firebase pois como é uma landing page precisariamos apenas capturar os dados dos doadores e do cadastro do voluntário (imagem descritiva abaixo).
+&nbsp;
+![Logo do R](https://coruscating-dodol-001caf.netlify.app/Slide17.JPG)
+&nbsp;
+
 
 (Todas as imagens utilizadas foram retiradas do site "PEXELS" uma plataforma de imagens gratuitas para utilizar em diversos projetos, a logo foi desenvolvida no site "Logaster")
 &nbsp;&nbsp;
