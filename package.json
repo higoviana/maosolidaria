@@ -51,6 +51,7 @@
     "async": "^2.6.4",
     "atob": "^2.1.2",
     "autoprefixer": "^10.4.7",
+    "awesome-bootstrap-checkbox": "^1.0.1",
     "babel-loader": "^8.2.5",
     "babel-plugin-dynamic-import-node": "^2.3.3",
     "babel-plugin-istanbul": "^6.1.1",

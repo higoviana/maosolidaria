@@ -16,7 +16,7 @@ export class PontosColetaComponent implements OnInit {
 
   ngOnInit(): void {
     let loader = new Loader({
-      apiKey: 'AIzaSyBHKk2Th-VElF3zNikl9CYt1_mNIhW6Ric',
+      apiKey: '',
     });
 
     loader.load().then(() => {

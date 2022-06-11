@@ -12,6 +12,10 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https: //fonts.googleapis.com/css2? family= Courgette & family= Dosis:wght@200 & family= Passion+One & family= Ubuntu:wght@300 & family= Work+Sans:ital,wght@0,100;0,200; 0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900 & display=swap" rel="stylesheet">
+
 
 </head>
 
@@ -21,17 +25,17 @@
 
   <!--Configuração da imagem no topo da pagina -->
 	<section class="img1">
-		<header>
+		<header style="padding: 5px; background-color:black">
       <a href="#topo">
         <img src="assets/imagens/mao-solidaria.jpg " class="img-fluid" alt="Imagem responsiva" >
       </a>
-      <div id="content" style="background-color: rgb(241, 238, 238);">
+      <div id="content" style="background-color: rgb(241, 238, 238); padding: 20px;">
         <br>
-        <h1 class="text-left" style="font-size: 35px; text-align: justify; padding-left: 15px; font-family: 'Ubuntu', sans-serif; border-color:black;">Doe para a rede “Mão solidária”</h1> <br>
-        <p class="text-left" style="font-size: 20px; text-align: justify; padding-left: 15px; font-family: 'Ubuntu', sans-serif;" >Uma pequena doação pode salvar vidas!!</p> <br>
-				<p class="text-left" style="font-size: 17px; text-align: justify; padding-left: 15px; font-family: 'Ubuntu', sans-serif;">Uma iniciativa para levar cestas básicas às famílias que estão mais vulneráveis frente aos impactos da pandemia de covid-19.
+        <h1 class="text-left" style="font-size: 30px; text-align: justify; padding-left: 15px; font-family: 'Ubuntu'; border-color:black;">DOE PARA REDE “MÃO SOLIDÁRIA”</h1> <br>
+        <p class="text-left" style="font-size: 18px; text-align: justify; padding-left: 15px; font-family: 'Ubuntu';" >Uma pequena doação pode salvar vidas!!</p> <br>
+				<p class="text-left" style="font-size: 18px; text-align: justify; padding-left: 15px; font-family: 'Ubuntu';">Uma iniciativa para levar cestas básicas às famílias que estão mais vulneráveis frente aos impactos da pandemia de covid-19.
 					<br>Aqui você pode doar qualquer valor, incluindo também roupas, utensilios domesticos, calçados etc.
-					<p class="text-left" style="font-size: 17px; text-align: justify; padding: 15px; font-family: 'Ubuntu', sans-serif; font-family: 'Ubuntu', sans-serif;"> A vida se transformou por conta da pandemia do novo coronavírus: os hábitos mudaram, um novo estilo precisou ser adotado, e muitas dificuldades se sobressaíram. E em meio a tudo isso, a solidariedade foi algo que teve um grande destaque nesses novos tempos. A preocupação com o outro ganhou os holofotes: ajudar passou a ser prioridade na vida de muitos brasileiros. Seja com um gesto de carinho, com a doação de algum alimento, de algum produto de limpeza, de alguma roupa ou até mesmo uma máscara de proteção.</p>
+					<p class="text-left" style="font-size: 18px; text-align: justify; padding: 15px;  font-family: 'Ubuntu';"> A vida se transformou por conta da pandemia do novo coronavírus: os hábitos mudaram, um novo estilo precisou ser adotado, e muitas dificuldades se sobressaíram. E em meio a tudo isso, a solidariedade foi algo que teve um grande destaque nesses novos tempos. A preocupação com o outro ganhou os holofotes: ajudar passou a ser prioridade na vida de muitos brasileiros. Seja com um gesto de carinho, com a doação de algum alimento, de algum produto de limpeza, de alguma roupa ou até mesmo uma máscara de proteção.</p>
 					<a [routerLink]="['/voluntario']" style="padding-left: 15px;"><button style="font-size: 13px; padding-left: 15px; background-color: rgb(189, 189, 37); border-color: white ;" id="btn2" class="btn btn-warning" >SEJA UM VOLUNTÁRIO</button></a>
 			    <br>
           <br>
@@ -114,20 +118,22 @@ mao-solidaria -> Foto de Lagos Food Bank Initiative no Pexels
 
 	<!--Seção comentarios depoimentos -->
 	<!--As imagens das pessoas foram tiradas do https://thispersondoesnotexist.com/ são fakes e pode utilizar-->
-	<section style="background-color: black; padding: -700px;">
+
+  <section  style="background-color: black;" >
 		<h1
-			style="font-weight: bolder; color: white; text-align: center; font-family: 'Ubuntu', sans-serif; font-size: 35px; ">
-			Depoimentos<br>
+			style="font-weight: bolder; color: white; text-align: center; font-family: 'Ubuntu', sans-serif; font-size: 30px; ">
+			VEJA ALGUNS DEPOIMENTOS<br>
 			<br><br>
 		</h1>
-		<div class="container" class="container-fluid">
+		<div class="container">
 			<div class="row">
-				<div class="col-sm" style="font-size: 10px;">
-					<div class="card" style="width: 15rem; border-radius: 20px;">
+				<div class="col-sm" style="font-size: 15px;">
+					<div class="card" style="width: 15rem; border-radius: 20px; display:inline-block;  width: 200px;
+          height: 500px; line-height: 20px; text-align: justify; padding: 10px;">
 						<img class="card-img-top" src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="Imagem de capa do card"
 							style="border-radius: 17px ;">
 						<div class="card-body">
-							<h5 class="card-title">João</h5>
+							<h5 class="card-title" style="font-size: 18px;">João</h5>
 							<br>
 							<p class="card-text" style="font-style: italic;">Lorem ipsum dolor sit, amet consectetur
 								adipisicing elit. Tenetur officiis dicta illo eius blanditiis! Reiciendis perspiciatis
@@ -137,27 +143,34 @@ mao-solidaria -> Foto de Lagos Food Bank Initiative no Pexels
 					</div>
 					<br>
 					<br>
+
 				</div>
-				<div class="col-sm" style="font-size: 10px;">
-					<div class="card" style="width: 15rem; border-radius: 20px;">
+				<div class="col-sm" style="font-size: 15px;">
+					<div class="card" style="width: 15rem; border-radius: 20px; display:inline-block;  width: 200px;
+          height: 500px; line-height: 20px; text-align: justify; padding: 10px;">
 						<img class="card-img-top" src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="Imagem de capa do card"
 							style="border-radius: 17px;">
 						<div class="card-body">
-							<h5 class="card-title">Maria</h5>
+							<h5 class="card-title" style="font-size: 18px;">Maria</h5>
 							<br>
 							<p class="card-text" style="font-style: italic;">Lorem ipsum dolor sit, amet consectetur
 								adipisicing elit. Tenetur officiis dicta illo eius blanditiis! Reiciendis perspiciatis
 								ea quam officia earum vel laudantium itaque placeat ut voluptate! Sint modi officia
 								magni!</p>
-						</div>
+              </div>
 					</div>
 				</div>
-				<div class="col-sm" style="font-size: 10px;">
-					<div class="card" style="width: 15rem; border-radius: 20px;">
+        <br>
+        <br>
+        <br>
+        <br>
+				<div class="col-sm" style="font-size: 15px;">
+					<div class="card" style="width: 15rem; border-radius: 20px; display:inline-block;  width: 200px;
+          height: 700px; line-height: 20px; text-align: justify; padding: 10px;">
 						<img class="card-img-top" src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="Imagem de capa do card"
 							style="border-radius: 17px;">
 						<div class="card-body">
-							<h5 class="card-title">Flavio</h5>
+							<h5 class="card-title" style="font-size: 18px;">Flavio</h5>
 							<br>
 							<p class="card-text" style="font-style: italic;">Lorem ipsum dolor, sit amet consectetur
 								adipisicing elit. Eligendi quasi ut sed atque magnam possimus, optio earum. Aliquid est
@@ -168,26 +181,15 @@ mao-solidaria -> Foto de Lagos Food Bank Initiative no Pexels
 						</div>
 					</div>
 				</div>
-				<div class="col-sm" style="font-size: 10px;">
-					<div class="card" style="width: 15rem; border-radius: 20px;">
+        <br>
+        <br>
+				<div class="col-sm" style="font-size: 15px;">
+					<div class="card" style="width: 15rem; border-radius: 20px; display:inline-block;  width: 200px;
+          height: 500px; line-height: 20px; text-align: justify; padding: 10px;">
 						<img class="card-img-top" src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="Imagem de capa do card"
 							style="border-radius: 17px;">
 						<div class="card-body">
-							<h5 class="card-title">Marcelo</h5>
-							<br>
-							<p class="card-text" style="font-style: italic;">Lorem ipsum dolor sit, amet consectetur
-								adipisicing elit. Tenetur officiis dicta illo eius blanditiis! Reiciendis perspiciatis
-								ea quam officia earum vel laudantium itaque placeat ut voluptate! Sint modi officia
-								magni!</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm" style="font-size: 10px;">
-					<div class="card" style="width: 15rem; border-radius: 20px;">
-						<img class="card-img-top" src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="Imagem de capa do card"
-							style="border-radius: 17px;">
-						<div class="card-body">
-							<h5 class="card-title">Claudio</h5>
+							<h5 class="card-title" style="font-size: 18px;">Marcelo</h5>
 							<br>
 							<p class="card-text" style="font-style: italic;">Lorem ipsum dolor sit, amet consectetur
 								adipisicing elit. Tenetur officiis dicta illo eius blanditiis! Reiciendis perspiciatis
@@ -203,6 +205,68 @@ mao-solidaria -> Foto de Lagos Food Bank Initiative no Pexels
 		<br>
 	</section>
 	<!--Fim da configuração -->
+
+
+
+
+
+
+<!-- ======= Icon Boxes Section ======= -->
+<section id="icon-boxes" class="icon-boxes">
+  <br>
+  <br>
+  <br>
+	<div class="container">
+    <hr class="featurette-divider" style="color:#05579e ;">
+    <br>
+    <h1 style="color: rgb(97, 95, 95); font-family: 'Ubuntu';">| CONHEÇA ALGUMAS ONGs </h1>
+    <br>
+    <br>
+    <br>
+
+	  <div class="row">
+		<div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up">
+		  <div class="icon-box">
+			<div class="icon"><i class="bx bxl-dribbble"></i></div>
+      <img  src="https://coruscating-dodol-001caf.netlify.app/logo.png " width=190 height=100 >
+			<h4 class="title"><a href="">Lorem Ipsum</a></h4>
+			<p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+		  </div>
+		</div>
+
+		<div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
+		  <div class="icon-box">
+			<div class="icon"><i class="bx bx-file"></i></div>
+      <img  src="https://coruscating-dodol-001caf.netlify.app/logo.png " width=190 height=100 >
+			<h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+			<p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+		  </div>
+		</div>
+
+		<div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="200">
+		  <div class="icon-box">
+			<div class="icon"><i class="bx bx-tachometer"></i></div>
+      <img  src="https://coruscating-dodol-001caf.netlify.app/logo.png " width=190 height=100 >
+			<h4 class="title"><a href="">Magni Dolores</a></h4>
+			<p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+		  </div>
+		</div>
+
+		<div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="300">
+		  <div class="icon-box">
+			<div class="icon"><i class="bx bx-layer"></i></div>
+      <img  src="https://coruscating-dodol-001caf.netlify.app/logo.png " width=190 height=100 >
+			<h4 class="title"><a href="">Nemo Enim</a></h4>
+			<p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+		  </div>
+		</div>
+
+	  </div>
+
+	</div>
+  </section><!-- End Icon Boxes Section -->
+
+
 
 
 
@@ -228,7 +292,7 @@ mao-solidaria -> Foto de Lagos Food Bank Initiative no Pexels
 		<!-- START THE FEATURETTES -->
 		<br>
 
-		<hr class="featurette-divider">
+		<hr class="featurette-divider" style="color: #05579e;">
 		<br>
 
 		<h1 style="text-align: center; font-family: 'Ubuntu', sans-serif; font-size: 30px;"><a name="noticias"></a>Últimas notícias</h1>
