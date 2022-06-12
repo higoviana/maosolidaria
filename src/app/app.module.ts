@@ -25,10 +25,7 @@ import { ListComponent } from './contatos/list/list.component';
 import { AppRoutingModule } from './app-routing.module';
 import { Edit2Component } from './voluntarios/edit2/edit2.component';
 import { List2Component } from './voluntarios/list2/list2.component';
-import { ArquivosComponent } from './arquivos/arquivos.component';
 
-
-//import {AgmCoreModule } from '@agm/core';
 
 
 
@@ -47,7 +44,7 @@ import { ArquivosComponent } from './arquivos/arquivos.component';
     EditComponent,
     Edit2Component,
     List2Component,
-    ArquivosComponent,
+
 
 
 
@@ -63,11 +60,6 @@ import { ArquivosComponent } from './arquivos/arquivos.component';
     MatInputModule,
     MatCardModule,
     MatToolbarModule,
-
-    //AgmCoreModule.forRoot({
-      //apiKey: 'CHAVES_GOOGLE_MAPS'
-    //})
-
   ],
   providers: [],
   bootstrap: [AppComponent]
