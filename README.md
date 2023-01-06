@@ -98,8 +98,7 @@ Para realizar o mundo que todos sonhamos, acreditamos que o caminho é ajudar e 
 
 Então essa é a ideia do nosso projeto com o intuito principal de atuar como uma ONG filantropica ajudando pessoas vulneráveis com doações (estamos abertos a propostas e também melhorias).
 
-Contate-me no E-mail: 📧 higoviana62@gmail.com
-&nbsp;&nbsp;&nbsp;
+
 
 # Tecnologias utilizadas:
 ![Logo do R](https://img.icons8.com/color/344/bootstrap.png)
